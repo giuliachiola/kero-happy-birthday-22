@@ -1,0 +1,56 @@
+@font-face {
+  font-family:"Comic Sans MS";
+  src:url("../fonts/ComicSansMS.woff2") format("woff2"),
+    url("../fonts/ComicSansMS.woff") format("woff"),
+    url("../fonts/ComicSansMS.otf") format("opentype");
+font-style:normal;
+  font-weight:400;
+}
+
+body {
+  background: linear-gradient(to right, #b306a9, #ef2667, #f42e2c, #ffa509, #fdfc00, #55ac2f, #0b13fd, #a804af);
+  text-align: center;
+  padding: 30px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 1.25em;
+}
+
+p {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* scritta */
+ .wordart {
+  font-family: Arial, sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wordart__blue {
+    font-family: Impact, sans-serif;
+    color: #24c0fd;
+    -webkit-text-stroke: 0.01em #0000aa;
+    filter: progid:DXImageTransform.Microsoft.Glow(Color=#0000aa,Strength=1);
+    text-shadow: 0.13em -0.13em 0px #0000aa;
+    letter-spacing: -0.05em;
+}
+
+@media only screen and (max-width: 600px) {
+  .wordart {
+    font-size: 2em;
+  }
+}
+
+.gif {
+  max-width: 50%;
+  margin: 0 auto;
+}
