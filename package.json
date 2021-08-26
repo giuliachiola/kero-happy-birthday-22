@@ -1,0 +1,20 @@
+{
+  "name": "kero-happy-birthday-22",
+  "version": "1.0.0",
+  "description": "To wish an happy birthday to my sister Kero, I made a collection of silly photos and phrases to show her how nice I am.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "python3 -m http.server 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giuliachiola/kero-happy-birthday-22.git"
+  },
+  "author": "Giulia Chiola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giuliachiola/kero-happy-birthday-22/issues"
+  },
+  "homepage": "https://github.com/giuliachiola/kero-happy-birthday-22#readme"
+}
